@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
+    <script language="javascript" src="js/time.js"></script>
     <style>
         .marginauto {
             margin: 10px auto 20px;
@@ -50,7 +51,7 @@
                                 <li><a href="about.html">About</a></li>
                                 <li><a href="tobe.html">Speakers</a></li>
                                 <li><a href="tobe.html">Schedule</a></li>
-                                <li><a href="tobe.html">Themes</a></li>
+                                <li><a href="timer.html">Themes</a></li>
                                 <li class="cta"><a href=#>Register</a></li>
                             </ul>
                         </nav>
@@ -67,8 +68,10 @@
                     <div class="col-md-10">
                         <span class="d-block mb-3 caption" data-aos="fade-up" data-aos-delay="100">UPES-CSI</span>
                         <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="200">HACKATHON 5.0</h1>
-                        <span class="d-block mb-5 caption" data-aos="fade-up" data-aos-delay="300">#CODE FOR SOCIAL GOOD</span>
-                        <h2 class="text-white mb-4 name" data-aos="fade-up" data-aos-delay="400">UPES <span class="text-primary">|</span> JAN 2020</h2><br>
+                        <span class="d-block mb-5 caption" data-aos="fade-up" data-aos-delay="400">#CODE FOR SOCIAL GOOD</span>
+                        <h2 id="demo"  data-aos="fade-up" data-aos-delay="600"> </h2><br>
+                        <h2 class="text-white mb-4 name" data-aos="fade-up" data-aos-delay="700">UPES <span class="text-primary">|</span> JAN 2020</h2><br>
+                        
                         <a href="#" class="btn-custom" data-aos="fade-up" data-aos-delay="100"><span>Team Register &gt;&gt;</span></a>&nbsp;&nbsp;
                         <a href="#" class="btn-custom" data-aos="fade-up" data-aos-delay="150"><span>Campus Ambassador &gt;&gt;</span></a>
                     </div>
@@ -193,10 +196,10 @@
                         <h2 class="footer-heading text-uppercase mb-4">Quick Links</h2>
                         <ul class="list-unstyled">
                             <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="tobe.html">Speakers</a></li>
-                                <li><a href="tobe.html">Schedule</a></li>
-                                 <li><a href="tobe.html">Themes</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="tobe.html">Speakers</a></li>
+                            <li><a href="tobe.html">Schedule</a></li>
+                            <li><a href="timer.html">Themes</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4">
@@ -206,7 +209,7 @@
                             <a href="https://twitter.com/upescsi" class="p-2"><span class="icon-twitter"></span></a>
                             <a href="https://www.youtube.com/user/TheYugmaK" class="p-2"><span class="icon-youtube"></span></a>
                             <a href="https://www.instagram.com/upescsi/" class="p-2"><span class="icon-instagram"></span></a>
-                           
+
                         </p>
                     </div>
                 </div>
@@ -237,15 +240,60 @@
     <script src="js/main.js"></script>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+
     <script>
-        window.dataLayer = window.dataLayer || [];
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jan 15, 2021 23:59:59").getTime();
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+            //Time.js
+            const srvTime = () => {
+                try {
+                    //FF, Opera, Safari, Chrome
+                    xmlHttp = new XMLHttpRequest();
+                } catch (err1) {
+                    //IE
+                    try {
+                        xmlHttp = new ActiveXObject('Msxml2.XMLHTTP');
+                    } catch (err2) {
+                        try {
+                            xmlHttp = new ActiveXObject('Microsoft.XMLHTTP');
+                        } catch (eerr3) {
+                            //AJAX not supported, use CPU time.
+                            alert("AJAX not supported");
+                        }
+                    }
+                }
+                xmlHttp.open('HEAD', window.location.href.toString(), false);
+                xmlHttp.setRequestHeader("Content-Type", "text/html");
+                xmlHttp.send('');
+                return xmlHttp.getResponseHeader("Date");
+            }
+            var st = srvTime();
+            var date = new Date(st);
+            // Get today's date and time
+            var now = date.getTime();
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
 
-        gtag('config', 'UA-23581568-13');
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Output the result in an element with id="demo"
+            document.getElementById("demo").innerHTML = "<strong>" + days + "d   " + hours + "h   " + "</strong>" + "<strong><span class=' text-primary'>" +
+                minutes + "m   " + seconds + "s   </span></strong>";
+
+            // If the count down is over, write some text 
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "<p><a href='theme.html'>Select your theme</a></p>";
+                document.getElementById("Harshit").remove();
+            }
+        }, 1000);
 
     </script>
 </body>

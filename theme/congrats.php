@@ -1,3 +1,10 @@
+<?php 
+session_start();
+$tf=$_SESSION['tf'];
+//echo $tf;
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,16 +14,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../fonts/icomoon/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+    <link rel="stylesheet" href="../css/jquery-ui.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="../fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="../css/aos.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
@@ -38,12 +45,8 @@
                     <div class="col-12 col-md-10 d-none d-xl-block">
                         <nav class="site-navigation position-relative text-right" role="navigation">
                             <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="tobe.html">Speakers</a></li>
-                                <li><a href="tobe.html">Schedule</a></li>
-                                 <li><a href="timer.html">Themes</a></li>
-                                <li class="cta"><a href=#>Register</a></li>
+                                
+                                <li class="cta"><a href="logout.php">Logout</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -56,25 +59,25 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-10">
-                    <span class="d-block mb-3 caption">To Be</span>
-                    <h1 class="d-block mb-4">Announced!!!</h1>
+                    <span class="d-block mb-3 caption">Congratulation, You have selected</span>
+                    <h2><span class="text-primary"><?php echo $tf;?></span> as your theme.</h2>
                 </div>
             </div>
         </div>
     </div>
     </div>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/jquery-migrate-3.0.1.min.js"></script>
-    <script src="js/jquery-ui.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.countdown.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/bootstrap-datepicker.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="../js/jquery-ui.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/jquery.stellar.min.js"></script>
+    <script src="../js/jquery.countdown.min.js"></script>
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+    <script src="../js/bootstrap-datepicker.min.js"></script>
+    <script src="../js/aos.js"></script>
+    <script src="../js/main.js"></script>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
     <script>
