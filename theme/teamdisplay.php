@@ -4,6 +4,7 @@
 <head>
     <title>Hackathon 5.0</title>
     <meta charset="utf-8">
+     <link rel="shortcut icon" href="images/Red.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="../fonts/icomoon/style.css">
@@ -42,7 +43,7 @@
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-11 col-xl-2">
-                        <h1 class="mb-0"><a href="../index.html" class="text-white h2 mb-0">UPES<span class="text-primary">-CSI</span> </a></h1>
+                     <h1 class="mb-0"><a href="logout.php" class="text-white h2 mb-0"><img src="../images/AltRed.png" style="width: auto; height: 100%; float:left;"> </a></h1>
                     </div>
                     <div class="col-12 col-md-10 d-none d-xl-block">
                         <nav class="site-navigation position-relative text-right" role="navigation">
@@ -64,11 +65,15 @@
         <div class="site-section site-hero inner">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col">
+                    <div class="col">                        
+<br>
+                        <br>
+                        <br>
+                        <br><br>
+                        <br><br>
                         <h1 style="color:#eb3935;font-weight:100;font-size:50px; text-align: center; " data-aos="fade-up" data-aos-delay="100">Teams and Selected Theme &#8595;&#8595;</h1>
                         
-                        <br>
-                        <br>
+                        
                           <div class="row text-center" data-aos="fade-up" data-aos-delay="200">
 
 
@@ -111,7 +116,7 @@
                 <div class="row mb-5">
                     <div class="col-md-4">
                         <h2 class="footer-heading text-uppercase mb-4">About Event</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit aliquid quibusdam fugit architecto.</p>
+                        <p style="font-size: small;">Hackathon is a nationwide coding event organized every year by UPES-CSI student chapter. Participants from different states and communities come together to create a solution for the problems existing in our society. Every year thousands of budding codders register for this event, but only a few make it to the next round. Participants have the opportunity to interact and learn directly from the industry people.</p>
                     </div>
                     <div class="col-md-3 ml-auto">
                         <h2 class="footer-heading text-uppercase mb-4">Quick Links</h2>
@@ -138,7 +143,7 @@
                     <div class="col-md-12 text-center">
                         <div class="border-top pt-5">
                             <p>
-                                <span class="text-primary">HACKATHON 5.0 </span>| created by <a href="https://upescsi.in/"><span class="text-primary">UPES-CSI</span></a>
+                                <span class="text-primary">HACKATHON 5.0 </span>| Created by <a href="https://upescsi.in/"><span class="text-primary">UPES-CSI</span></a>
 
                             </p>
                         </div>

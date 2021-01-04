@@ -12,6 +12,9 @@ $tf=$_SESSION['tf'];
 <head>
     <title>HACKATHON 5.0</title>
     <meta charset="utf-8">
+    
+    
+    <link rel="shortcut icon" href="../images/Red.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="../fonts/icomoon/style.css">
@@ -40,7 +43,7 @@ $tf=$_SESSION['tf'];
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-11 col-xl-2">
-                        <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">UPES<span class="text-primary">-CSI</span> </a></h1>
+                          <h1 class="mb-0"><a href="logout.php" class="text-white h2 mb-0"><img src="../images/AltRed.png" style="width: auto; height: 100%; float:left;"> </a></h1>
                     </div>
                     <div class="col-12 col-md-10 d-none d-xl-block">
                         <nav class="site-navigation position-relative text-right" role="navigation">
@@ -59,6 +62,11 @@ $tf=$_SESSION['tf'];
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-10">
+                    <br>
+                        <br>
+                        <br>
+                        <br><br>
+                        <br><br>
                     <span class="d-block mb-3 caption">Congratulation, You have selected</span>
                     <h2><span class="text-primary"><?php echo $tf;?></span> as your theme.</h2>
                 </div>
