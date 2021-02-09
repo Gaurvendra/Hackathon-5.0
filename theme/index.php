@@ -248,6 +248,29 @@ $counter = mysql_query("SELECT counter FROM counter");
                                     </div>
                                 </div>
                             </div>
+                                  <div class="col-lg-3 col-md-6 mb-4 ">
+                                <div class="card">
+                                    <div class="card-body"><br>
+                                        <h4 class="card-title" style="color:black;">OTT Platforms</h4>
+                                        <p class="card-text" style="color:black;">OTT platforms are concerned with providing television and film content over the internet according to the requirements of the user. With the addition of millions of users, the number of users witnessed a sharp increase by about 30% in 2020.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <h5 style="color:black;"> Remaining: <span style="color:red"><?php echo mysql_result($counter, 5);?></span>
+
+                                        </h5>
+                                        <?php 
+                    if(mysql_result($counter,5)==0) 
+                    {
+                        echo "<a class='btn btn-disabled'>FULL!</a>";
+                    }
+                    else
+                    {                        
+                        echo "<a href='select.php?id=a6' class='btn btn-primary'>Select theme</a>";
+                    }
+                ?>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <!-- /.row -->
 
