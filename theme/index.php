@@ -412,7 +412,7 @@ $counter = mysql_query("SELECT counter FROM counter");
                                 <div class="card">
                                     <div class="card-body"><br>
                                         <h4 class="card-title" style="color:black;">Agricultural Reforms in India</h4><br>
-                                        <p class="card-text" style="color:black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eum libero earum ab quasi consectetur amet dolor sapiente voluptates unde corporis placeat asperiores minima, ipsa, voluptate et, cumque sed quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus unde odit ad, asperiores illo eveniet hic harum placeat obcaecati libero officia magni vero dolorem, consectetur cupiditate reprehenderit in dolores cum?</p>
+                                        <p class="card-text" style="color:black;">India’s agricultural marketing reforms have proved to be more problematic. About 60 percent of our population works in the agricultural sector. It is need of the hour to tackle the existing issues such as trading policies and price assurance to ensure productivity in the agricultural sector.</p>
                                     </div>
                                     <div class="card-footer">
                                         <h5 style="color:black;"> Remaining:<span style="color:red"><?php echo mysql_result($counter, 10);?></span>
