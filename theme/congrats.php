@@ -1,5 +1,8 @@
 <?php 
 session_start();
+if (!isset( $_SESSION['teamid'])) {
+    header('location:../theme.html');
+}
 $tf=$_SESSION['tf'];
 //echo $tf;
 
