@@ -124,10 +124,10 @@ $counter = mysql_query("SELECT counter FROM counter");
                                     <!--<img class="card-img-top" src="http://placehold.it/500x325" alt="">-->
                                     <div class="card-body">
                                         <br>
-                                        <h4 class="card-title" style="color:black;">Challenges in Agriculture Sector</h4>
+                                        <h4 class="card-title" style="color:black;">MLOps</h4>
 
 
-                                        <p class="card-text" style="color:black;">Agriculture sector is the most important sector in Indian economy. But the sector faces a lot of challenges like natural calamities, irrigation problems, very less amount paid to the farmers and huge debt. Do you think that you can design an idea which can positively affect this social problem?</p>
+                                        <p class="card-text" style="color:black;">MLOps is the amalgamation of DevOps and machine learning. It has been used extensively in the industry since its introduction. It has allowed data scientists to focus on the actual problem instead of worrying about ways to ship the software.</p>
                                     </div>
                                     <div class="card-footer">
                                         <h5 style="color:black;"> Remaining:<span style="color:red">
@@ -153,10 +153,10 @@ $counter = mysql_query("SELECT counter FROM counter");
 
                                     <div class="card-body">
                                         <br>
-                                        <h4 class="card-title" style="color:black;">Indian Combat and Defence</h4>
+                                        <h4 class="card-title" style="color:black;">Internet of Things</h4>
                                         <br>
 
-                                        <p class="card-text" style="color:black;">Indian army is considered as the third largest army in this world and our expenditure on defense has been increasing every year. Whether its internal enemy or external, a solution is required. We have come to a point where we consider weapons as the final solution. But does it provide an answer to every problem?</p>
+                                        <p class="card-text" style="color:black;">An IoT cloud is a massive network that supports IoT devices and applications. This includes the underlying infrastructure, servers, and storage, needed for real-time operations and processing. An IoT cloud also includes the services and standards necessary for connecting, managing, and securing different IoT devices and applications.</p>
                                     </div>
                                     <div class="card-footer">
                                         <h5 style="color:black;"> Remaining:<span style="color:red"><?php echo mysql_result($counter, 1);?></span>
@@ -178,8 +178,8 @@ $counter = mysql_query("SELECT counter FROM counter");
                             <div class="col-lg-3 col-md-6 mb-4">
                                 <div class="card">
                                     <div class="card-body"><br>
-                                        <h4 class="card-title" style="color:black;">Cyber Bullying</h4>
-                                        <p class="card-text" style="color:black;">Social media has become the most important part of our lives nowadays. But with very trend comes its side-effects. With the advantage that no one can see you face to face; the cyberspace has become the place where all kinds of hatred and bullying is done. A large number of youngsters become a victim of cyber bullying every day, is there any solution for it?</p>
+                                        <h4 class="card-title" style="color:black;">Robotic Process Automation</h4>
+                                        <p class="card-text" style="color:black;">Robotic Process Automation is the technology that allows anyone today to configure computer software to emulate and integrate the actions of a human interacting within digital systems to execute a business process. RPA robots utilize the user interface to capture data and manipulate applications like a human. To perform a variety of repetitive tasks while never sleeping and making zero mistakes.</p>
                                     </div>
                                     <div class="card-footer">
                                         <h5 style="color:black;"> Remaining: <span style="color:red"><?php echo mysql_result($counter, 2);?></span>
@@ -204,8 +204,8 @@ $counter = mysql_query("SELECT counter FROM counter");
 
                                     <div class="card-body">
                                         <br>
-                                        <h4 class="card-title" style="color:black;">Food & Water conservation</h4>
-                                        <p class="card-text" style="color:black;">Food and water are the most important amenities required by us as humans. We can see a large amount of food being thrown away after parties. We can see people wasting water by not turning off the tap. In today’s world, not everyone can afford these amenities and their judicial should be of utmost importance. Do you think your idea can bring out a solution to the issue?</p>
+                                        <h4 class="card-title" style="color:black;">Blockchain Technology</h4>
+                                        <p class="card-text" style="color:black;">Blockchain technology is a group of blocks linked together using cryptography. Deploying this technology will help to strengthen trust in the education sector, healthcare, and food safety by ensuring copyright protection of data and security.</p>
                                     </div>
                                     <div class="card-footer">
                                         <h5 style="color:black;">Remaining: <span style="color:red"><?php echo mysql_result($counter, 3);?></span>
@@ -229,8 +229,8 @@ $counter = mysql_query("SELECT counter FROM counter");
                             <div class="col-lg-3 col-md-6 mb-4 ">
                                 <div class="card">
                                     <div class="card-body"><br>
-                                        <h4 class="card-title" style="color:black;">Vigilantism and spread of fake news</h4>
-                                        <p class="card-text" style="color:black;">Whether it’s Naxals in Chhattisgarh or stone pelters in Kashmir, the biggest weapon they use to induce fear is FAKE NEWS. Both the vigilantism and fake news have moved hand in hand for a long time. There needs to be a line between good journalism and publishing hoax for money (which is the new trend). It’s high time to stand against fake news as we have stood against vigilantism, before it’s too late.</p>
+                                        <h4 class="card-title" style="color:black;">Artificial Intelligence</h4>
+                                        <p class="card-text" style="color:black;">Artificial Intelligence is a branch of computer science used for building machines that require human intelligence. These machines have much higher efficiency than humans and have also proved to be less error-prone. AI has already started and will majorly revolutionize the industry in the coming few years.</p>
                                     </div>
                                     <div class="card-footer">
                                         <h5 style="color:black;"> Remaining: <span style="color:red"><?php echo mysql_result($counter, 4);?></span>
@@ -289,8 +289,8 @@ $counter = mysql_query("SELECT counter FROM counter");
                             <div class="col-lg-3 col-md-12 mb-4">
                                 <div class="card">
                                     <div class="card-body"><br>
-                                        <h4 class="card-title" style="color:black;">Artificial Intelligence</h4>
-                                        <p class="card-text" style="color:black;"> They had some pretty interesting thoughts about the world and humanity. In the field of computer science, artificial intelligence (AI), sometimes called machine intelligence, is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and other animals. AI is the hot trend in the technical field but should we be threatened?</p>
+                                        <h4 class="card-title" style="color:black;">Work from Home</h4>
+                                        <p class="card-text" style="color:black;"> WFH means an employee is working from their place of residence, rather than working from the office. Many companies have a WFH policy that allows their employees to work from home either full-time or when it's most convenient for them. Employees who WFH often have a better work-life balance and often are more because they don't spend time commuting into the office and can get their work done quicker in a focused environment.</p>
                                     </div>
                                     <div class="card-footer">
                                         <h5 style="color:black;"> Remaining:<span style="color:red"> <?php echo mysql_result($counter, 5);?></span>
@@ -314,8 +314,8 @@ $counter = mysql_query("SELECT counter FROM counter");
                             <div class="col-lg-3 col-md-6 mb-4">
                                 <div class="card">
                                     <div class="card-body"><br>
-                                        <h4 class="card-title" style="color:black;">Blockchain</h4>
-                                        <p class="card-text" style="color:black;">Bitcoin almost touched the value of $20,000 in December 2017. Bitcoin and every other cryptocurrency works on blockchain technology. A blockchain, originally block chain, is a growing list of records, called blocks, which are linked using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data (generally represented as a merkle tree root hash).</p>
+                                        <h4 class="card-title" style="color:black;">Virtual Healthcare</h4>
+                                        <p class="card-text" style="color:black;">Virtual healthcare is on the rise, where patients can interact with doctors using video conferencing, audio, and instant messaging. Not only reducing the cost, but it has also led to the emergence of telemedicine apps healthcare facilities using phones and tablets.</p>
                                     </div>
                                     <div class="card-footer">
                                         <h5 style="color:black;"> Remaining:<span style="color:red"><?php echo mysql_result($counter, 6);?></span>
@@ -338,8 +338,8 @@ $counter = mysql_query("SELECT counter FROM counter");
                             <div class="col-lg-3 col-md-6 mb-4">
                                 <div class="card">
                                     <div class="card-body"><br>
-                                        <h4 class="card-title" style="color:black;">Industrial IOT</h4>
-                                        <p class="card-text" style="color:black;">It is said that the future of IoT has the potential to be limitless. The Industrial Internet of Things originally described the IoT(Internet of Things) as it is used across several industries such as manufacturing, logistics, oil and gas, transportation, energy/utilities, mining and metals, aviation and other industrial sectors and in use cases which are typical to these industries.</p>
+                                        <h4 class="card-title" style="color:black;">Women Empowerment</h4>
+                                        <p class="card-text" style="color:black;">Women Empowerment discussions are on the rise in development and economics. Empowering women by respecting their choices, promoting their sense of self-worth, and boosting their presence in every domain that we come across is the basic key for the overall sustainable development of all countries.</p>
                                     </div>
                                     <div class="card-footer">
                                         <h5 style="color:black;"> Remaining:<span style="color:red"> <?php echo mysql_result($counter, 7);?></span>
@@ -413,7 +413,7 @@ $counter = mysql_query("SELECT counter FROM counter");
                                 <div class="card">
                                     <div class="card-body"><br>
                                         <h4 class="card-title" style="color:black;">Choose Your Own</h4>
-                                        <p class="card-text" style="color:black;">If you did not find any of the given options exciting, then don’t worry. You have the chance of working on a project of your choice. So, let’s code!!!!!</p>
+                                        <p class="card-text" style="color:black;">Do you still wish to make something that you are passionate about? Something that's out of the box and fascinates you but is not mentioned amongst the rest of the themes? Go forward! You still have a chance to opt for 'Choose your own theme'!</p>
                                     </div>
                                     <div class="card-footer">
                                         <h5 style="color:black;"> Remaining:<span style="color:red"><?php echo mysql_result($counter, 10);?></span>

@@ -14,25 +14,27 @@ if (isset($_SESSION['teamid'])) {
     $row = mysql_fetch_array($single);
     if ($row['theme'] === null) {
         switch ($theme) {
-      case 'a1':$themefinal="Challenges in Agriculture Sector";
+      case 'a1':$themefinal="MLOPS";
                 break;
-      case 'a2':$themefinal="Indian Combat and Defence";
+      case 'a2':$themefinal="Cloud IOT";
                 break;
-          case 'a3':$themefinal="Cyber Bullying";
+          case 'a3':$themefinal="RPA";
                 break;
-         case 'a4':$themefinal="Food & Water conservation";
+         case 'a4':$themefinal="Blockchain";
                 break;
-        case 'a5':$themefinal="Vigilantism and spread of fake news";
+        case 'a5':$themefinal="AI";
                 break;
-       case 'b1':$themefinal="Artificial Intelligence";
+                case 'a6':$themefinal="OTT";
                 break;
-      case 'b2':$themefinal="Blockchain";
+       case 'b1':$themefinal="Work from Home";
                 break;
-    case 'b3':$themefinal="Industrial IOT";
+      case 'b2':$themefinal="Virtual Healthcare";
                 break;
-    case 'b4':$themefinal="Cloud";
+    case 'b3':$themefinal="Women Empowerment";
                 break;
-    case 'b5':$themefinal="Data Science";
+    case 'b4':$themefinal="Agricultural Reforms in India";
+                break;
+    case 'b5':$themefinal="Electric Mobility in India";
                 break;
     case 'b6':$themefinal="Choose your own";
                 break;
