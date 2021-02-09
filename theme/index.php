@@ -153,9 +153,8 @@ $counter = mysql_query("SELECT counter FROM counter");
 
                                     <div class="card-body">
                                         <br>
-                                        <h4 class="card-title" style="color:black;">Internet of Things</h4>
-                                        <br>
-
+                                        <h4 class="card-title" style="color:black;">Cloud IOT</h4>
+                                        
                                         <p class="card-text" style="color:black;">An IoT cloud is a massive network that supports IoT devices and applications. This includes the underlying infrastructure, servers, and storage, needed for real-time operations and processing. An IoT cloud also includes the services and standards necessary for connecting, managing, and securing different IoT devices and applications.</p>
                                     </div>
                                     <div class="card-footer">
@@ -178,8 +177,8 @@ $counter = mysql_query("SELECT counter FROM counter");
                             <div class="col-lg-3 col-md-6 mb-4">
                                 <div class="card">
                                     <div class="card-body"><br>
-                                        <h4 class="card-title" style="color:black;">Robotic Process Automation</h4>
-                                        <p class="card-text" style="color:black;">Robotic Process Automation is the technology that allows anyone today to configure computer software to emulate and integrate the actions of a human interacting within digital systems to execute a business process. RPA robots utilize the user interface to capture data and manipulate applications like a human. To perform a variety of repetitive tasks while never sleeping and making zero mistakes.</p>
+                                        <h4 class="card-title" style="color:black;">R.P.A.</h4>
+                                        <p class="card-text" style="color:black;">R.P.A. or Robotic Process Automation is the technology that allows anyone today to configure computer software to emulate and integrate the actions of a human interacting within digital systems to execute a business process. RPA robots utilize the user interface to capture data and manipulate applications like a human. To perform a variety of repetitive tasks while never sleeping and making zero mistakes.</p>
                                     </div>
                                     <div class="card-footer">
                                         <h5 style="color:black;"> Remaining: <span style="color:red"><?php echo mysql_result($counter, 2);?></span>
