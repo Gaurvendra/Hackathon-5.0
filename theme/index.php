@@ -315,11 +315,11 @@ $counter = mysql_query("SELECT counter FROM counter");
                                         <p class="card-text" style="color:black;"> WFH means an employee is working from their place of residence, rather than working from the office. Many companies have a WFH policy that allows their employees to work from home either full-time or when it's most convenient for them. Employees who WFH often have a better work-life balance and often are more because they don't spend time commuting into the office and can get their work done quicker in a focused environment.</p>
                                     </div>
                                     <div class="card-footer">
-                                        <h5 style="color:black;"> Remaining:<span style="color:red"> <?php echo mysql_result($counter, 5);?></span>
+                                        <h5 style="color:black;"> Remaining:<span style="color:red"> <?php echo mysql_result($counter, 6);?></span>
 
                                         </h5>
                                         <?php 
-                    if(mysql_result($counter,5)==0) 
+                    if(mysql_result($counter,6)==0) 
                     {
                         echo "<a class='btn btn-disabled'>FULL!</a>";
                     }
@@ -340,11 +340,11 @@ $counter = mysql_query("SELECT counter FROM counter");
                                         <p class="card-text" style="color:black;">Virtual healthcare is on the rise, where patients can interact with doctors using video conferencing, audio, and instant messaging. Not only reducing the cost, but it has also led to the emergence of telemedicine apps healthcare facilities using phones and tablets.</p>
                                     </div>
                                     <div class="card-footer">
-                                        <h5 style="color:black;"> Remaining:<span style="color:red"><?php echo mysql_result($counter, 6);?></span>
+                                        <h5 style="color:black;"> Remaining:<span style="color:red"><?php echo mysql_result($counter, 7);?></span>
 
                                         </h5>
                                         <?php 
-                    if(mysql_result($counter,6)==0) 
+                    if(mysql_result($counter,7)==0) 
                     {
                         echo "<a class='btn btn-disabled'>FULL!</a>";
                     }
@@ -364,10 +364,10 @@ $counter = mysql_query("SELECT counter FROM counter");
                                         <p class="card-text" style="color:black;">Women Empowerment discussions are on the rise in development and economics. Empowering women by respecting their choices, promoting their sense of self-worth, and boosting their presence in every domain that we come across is the basic key for the overall sustainable development of all countries.</p>
                                     </div>
                                     <div class="card-footer">
-                                        <h5 style="color:black;"> Remaining:<span style="color:red"> <?php echo mysql_result($counter, 7);?></span>
+                                        <h5 style="color:black;"> Remaining:<span style="color:red"> <?php echo mysql_result($counter, 8);?></span>
                                         </h5>
                                         <?php 
-                    if(mysql_result($counter,7)==0) 
+                    if(mysql_result($counter,8)==0) 
                     {
                         echo "<a class='btn btn-disabled'>FULL!</a>";
                     }
@@ -383,15 +383,15 @@ $counter = mysql_query("SELECT counter FROM counter");
                             <div class="col-lg-3 col-md-6 mb-4">
                                 <div class="card">
                                     <div class="card-body"><br>
-                                        <h4 class="card-title" style="color:black;">Cloud</h4>
-                                        <p class="card-text" style="color:black;">Cloud market is projected to be of the highest value in the coming decade. Simply put, cloud computing is the delivery of computing services—servers, storage, databases, networking, software, analytics, intelligence and more—over the Internet (“the cloud”) to offer faster innovation, flexible resources and economies of scale. .</p>
+                                        <h4 class="card-title" style="color:black;">Electric Mobility in India</h4>
+                                        <p class="card-text" style="color:black;">Today’s transport sector is almost completely dependent on fossil fuels but this doesn’t have to be the case. Managing our resources systematically is the key to sustainability. The potential benefits of street vehicles that are powered by an electric motor and primarily get their energy from the power grid are immeasurable hence the current trend is shifting towards their use.</p>
                                     </div>
                                     <div class="card-footer">
-                                        <h5 style="color:black;"> Remaining:<span style="color:red"><?php echo mysql_result($counter, 8);?></span>
+                                        <h5 style="color:black;"> Remaining:<span style="color:red"><?php echo mysql_result($counter, 9);?></span>
 
                                         </h5>
                                         <?php 
-                    if(mysql_result($counter,8)==0) 
+                    if(mysql_result($counter,9)==0) 
                     {
                         echo "<a class='btn btn-disabled'>FULL!</a>";
                     }
@@ -411,14 +411,14 @@ $counter = mysql_query("SELECT counter FROM counter");
                             <div class="col-lg-3 col-md-6 mb-4">
                                 <div class="card">
                                     <div class="card-body"><br>
-                                        <h4 class="card-title" style="color:black;">Data Science</h4><br>
-                                        <p class="card-text" style="color:black;">Data science has been giving quite a lot of amazing job opportunities recently. With the advent of AI, cloud and big data; this particular branch has advanced a lot too. Data science is a multidisciplinary blend of data inference, algorithm development, and technology in order to solve analytically complex problems.</p>
+                                        <h4 class="card-title" style="color:black;">Agricultural Reforms in India</h4><br>
+                                        <p class="card-text" style="color:black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eum libero earum ab quasi consectetur amet dolor sapiente voluptates unde corporis placeat asperiores minima, ipsa, voluptate et, cumque sed quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus unde odit ad, asperiores illo eveniet hic harum placeat obcaecati libero officia magni vero dolorem, consectetur cupiditate reprehenderit in dolores cum?</p>
                                     </div>
                                     <div class="card-footer">
-                                        <h5 style="color:black;"> Remaining:<span style="color:red"><?php echo mysql_result($counter, 9);?></span>
+                                        <h5 style="color:black;"> Remaining:<span style="color:red"><?php echo mysql_result($counter, 10);?></span>
                                         </h5>
                                         <?php 
-                    if(mysql_result($counter,9)==0) 
+                    if(mysql_result($counter,10)==0) 
                     {
                         echo "<a class='btn btn-disabled'>FULL!</a>";
                     }
@@ -438,10 +438,10 @@ $counter = mysql_query("SELECT counter FROM counter");
                                         <p class="card-text" style="color:black;">Do you still wish to make something that you are passionate about? Something that's out of the box and fascinates you but is not mentioned amongst the rest of the themes? Go forward! You still have a chance to opt for 'Choose your own theme'!</p>
                                     </div>
                                     <div class="card-footer">
-                                        <h5 style="color:black;"> Remaining:<span style="color:red"><?php echo mysql_result($counter, 10);?></span>
+                                        <h5 style="color:black;"> Remaining:<span style="color:red"><?php echo mysql_result($counter, 11);?></span>
                                         </h5>
                                         <?php 
-                    if(mysql_result($counter,10)==0) 
+                    if(mysql_result($counter,11)==0) 
                     {
                         echo "<a class='btn btn-disabled'>FULL!</a>";
                     }

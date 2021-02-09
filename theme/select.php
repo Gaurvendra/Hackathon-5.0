@@ -32,9 +32,9 @@ if (isset($_SESSION['teamid'])) {
                 break;
     case 'b3':$themefinal="Women Empowerment";
                 break;
-    case 'b4':$themefinal="Agricultural Reforms in India";
+    case 'b4':$themefinal="Electric Mobility in India";
                 break;
-    case 'b5':$themefinal="Electric Mobility in India";
+    case 'b5':$themefinal="Agricultural Reforms in India";
                 break;
     case 'b6':$themefinal="Choose your own";
                 break;
