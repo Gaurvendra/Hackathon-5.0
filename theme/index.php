@@ -113,7 +113,7 @@ $counter = mysql_query("SELECT counter FROM counter");
                         <!-- Jumbotron Header-->
 
                         <h2 data-aos="fade-up" data-aos-delay="100"><span class="text-primary">CATEGORY A</span></h2>
-                        <p class="lead" style="color:white;font-weight:100;font-size:20px;" data-aos="fade-up" data-aos-delay="200">Those candidates who are here to make some real life project and want to change the course of human history, refer to this group. Considerable bonus points will be awarded for choosing Category A.</p>
+                        <p class="lead" style="color:white;font-weight:100;font-size:20px;" data-aos="fade-up" data-aos-delay="200">Those candidates who are here to make some real life project and want to change the course of human history, refer to this group.</p>
 
                         <br>
                         <!-- Page Features -->
