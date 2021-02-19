@@ -71,7 +71,7 @@
                         <br>
                         <br><br>
                         <br><br>
-                        <h1 style="color:#eb3935;font-weight:100;font-size:50px; text-align: center; " data-aos="fade-up" data-aos-delay="100">Teams and Selected Theme &#8595;&#8595;</h1>
+                        <h1 style="color:#eb3935;font-weight:100;font-size:50px; text-align: center; " data-aos="fade-up" data-aos-delay="100">Results &#8595;&#8595;</h1>
                         <br><br>
                          <h2 style="color:#eb3935;font-weight:100;font-size:50px; text-align: center; " data-aos="fade-up" data-aos-delay="200">Total Count :-  <?php
                include 'config.php';
