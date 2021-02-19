@@ -119,46 +119,7 @@
             </div>
         </div>
     
-        <footer class="site-footer">
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col-md-4">
-                        <h2 class="footer-heading text-uppercase mb-4">About Event</h2>
-                        <p style="font-size: small;">Hackathon is a nationwide coding event organized every year by UPES-CSI student chapter. Participants from different states and communities come together to create a solution for the problems existing in our society. Every year thousands of budding codders register for this event, but only a few make it to the next round. Participants have the opportunity to interact and learn directly from the industry people.</p>
-                    </div>
-                    <div class="col-md-3 ml-auto">
-                        <h2 class="footer-heading text-uppercase mb-4">Quick Links</h2>
-                        <ul class="list-unstyled">
-                            <li><a href="../index.html">Home</a></li>
-                            <li><a href="../about.html">About</a></li>
-                            <li><a href="../tobe.html">Speakers</a></li>
-                            <li><a href="../tobe.html">Schedule</a></li>
-                        
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <h2 class="footer-heading text-uppercase mb-4">Connect with Us</h2>
-                        <p>
-                            <a href="https://m.facebook.com/upescsi/" class="p-2 pl-0"><span class="icon-facebook"></span></a>
-                            <a href="https://twitter.com/upescsi" class="p-2"><span class="icon-twitter"></span></a>
-                            <a href="https://www.youtube.com/user/TheYugmaK" class="p-2"><span class="icon-youtube"></span></a>
-                            <a href="https://www.instagram.com/upescsi/" class="p-2"><span class="icon-instagram"></span></a>
-
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <div class="border-top pt-5">
-                            <p>
-                                <span class="text-primary">HACKATHON 5.0 </span>| Created by <a href="https://upescsi.in/"><span class="text-primary">UPES-CSI</span></a>
-
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        
     </div>
     <script src="../js/jquery-3.3.1.min.js"></script>
     <script src="../js/jquery-migrate-3.0.1.min.js"></script>
