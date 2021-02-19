@@ -74,9 +74,8 @@
                         <h1 style="color:#eb3935;font-weight:100;font-size:50px; text-align: center; " data-aos="fade-up" data-aos-delay="100">Teams and Selected Theme &#8595;&#8595;</h1>
                         <br><br>
                          <h2 style="color:#eb3935;font-weight:100;font-size:50px; text-align: center; " data-aos="fade-up" data-aos-delay="200"> <?php
-                include 'config.php';
-                             $que = mysqli_query($con,"SELECT count(*) FROM teamdetails WHERE `theme` IS NOT NULL");
-                                echo $que;
+               include 'config.php';
+                             $que = mysql_query("SELECT COUNT(*) FROM teamdetails WHERE `theme` IS NOT NULL");
 
 ?>
  </h2>
