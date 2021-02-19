@@ -73,7 +73,7 @@
                         <br><br>
                          <h2 style="color:#eb3935;font-weight:100;font-size:50px; text-align: center; " data-aos="fade-up" data-aos-delay="200">Total Count :-  <?php
                include 'config.php';
-                             $que = mysql_query("SELECT * FROM teamdetails WHERE `theme` IS NOT NULL");
+                             $que = mysql_query("SELECT * FROM results");
                              $num_rows = mysql_num_rows($que);
                              echo $num_rows;
 ?>
@@ -86,6 +86,7 @@
 
                             <table style="width:100%; border-color: antiquewhite;">
                                 <tr>
+                                     <th style="color:#eb3935;">S.No.</th>
                                     <th style="color:#eb3935;">TEAM ID</th>
                                    
 
@@ -93,10 +94,11 @@
 
                                 <?php
                 include 'config.php';
-                             $que = mysql_query("SELECT * FROM teamdetails WHERE `theme` IS NOT NULL");
+                             $que = mysql_query("SELECT * FROM results");
                   while ($row = mysql_fetch_array($que)) {
                      echo "
   <tr>
+   <td >".$row['sno']."</td>
     <td >".$row['teamid']."</td>
     </tr>";  }
                 ?>
