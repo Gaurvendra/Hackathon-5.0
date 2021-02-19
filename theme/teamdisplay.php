@@ -89,7 +89,7 @@
                             <table style="width:100%; border-color: antiquewhite;">
                                 <tr>
                                     <th style="color:#eb3935;">TEAM ID</th>
-                                    <th style="color:#eb3935;">THEME</th>
+                                   
 
                                 </tr>
 
