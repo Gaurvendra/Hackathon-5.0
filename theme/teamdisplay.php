@@ -100,7 +100,7 @@
                      echo "
   <tr>
     <td >".$row['teamid']."</td>
-    <td>".$row['theme']."</td></tr>";  }
+    </tr>";  }
                 ?>
 
 
