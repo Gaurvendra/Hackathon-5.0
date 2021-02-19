@@ -4,7 +4,7 @@
 <head>
     <title>Hackathon 5.0</title>
     <meta charset="utf-8">
-     <link rel="shortcut icon" href="images/Red.png" />
+    <link rel="shortcut icon" href="../images/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="../fonts/icomoon/style.css">
