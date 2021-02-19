@@ -75,8 +75,9 @@
                         <br><br>
                          <h2 style="color:#eb3935;font-weight:100;font-size:50px; text-align: center; " data-aos="fade-up" data-aos-delay="200"> <?php
                include 'config.php';
-                             $que = mysql_query("SELECT COUNT(*) FROM teamdetails WHERE `theme` IS NOT NULL");
-                             echo $que;
+                             $que = mysql_query("SELECT * FROM teamdetails WHERE `theme` IS NOT NULL");
+                             $num_rows = mysql_num_rows($que);
+                             echo $num_rows;
 ?>
  </h2>
                         <br><br>
